@@ -259,5 +259,5 @@ var loop=103
     
     for (var i = 24; i < 33; i++) {
     
-      console.log(i * 4);
+      console.log(i);
     }
