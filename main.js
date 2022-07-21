@@ -213,7 +213,7 @@ const students=[" soheil "," minakshi "," om "," raghav "," priya "];
 
     var string_2=" NEHA ";
     
-             for (var id = 0; id < students.length; id=id-2) 
+             for (var id = 0; id < students.length; id++) 
                   {
                      string_2 = string_2 + students[id];
                          console.log(string_2);
