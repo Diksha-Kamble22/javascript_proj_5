@@ -180,37 +180,30 @@ var BAE="24";
  console.log(BAE===LOL);
  console.log(LOL!=LOL);
  console.log(BAE!==LOL);
+//USE CASE 2
+const names = ["priya", "Diya", "Komal", "Sheela", "Rukhmini"];
 
-const students=[" soheil "," minakshi "," om "," raghav "," priya "];
- 
-const above_18 =["minakshi","priya"];
+const admins = ["Komal", "Diya"];
 
-   for( var i=0; i < students.length ; i++){
-           
-        var current_login=students[i];
-          
-        var isVALIDlogin=false;
-  
-    for (var j=0; j < above_18.length ; j++) { 
-            
-         var valid_login_jth_index = above_18 [j] ; 
-    if(current_login===valid_login_jth_index) {
-      
-          isVALIDlogin = true;
-          }
+for (var i = 0; i < names.length; i++) {
+  var current_names = names[i];
+  var IsAdmin = false;
+
+  for (var j = 0; j < admins.length; j++) {
+    var admins_jth_index = admins[j];
+    if (current_names === admins_jth_index) {
+      IsAdmin = true;
     }
+  }
 
-    console.log(students[i])
-        
-   if(isVALIDlogin){
-   
-         console.log("it is true");
-                           
-   else {           
-         
-         console.log("is not true");
-       }
-    
+  console.log(names[i]);
+
+  if (IsAdmin) {
+    console.log("She is an Admin");
+  } else {
+    console.log("She is not an Admin");
+  }
+}
 
 var loop=103
    
