@@ -183,7 +183,7 @@ var BAE="24";
 
 const students=[" soheil "," minakshi "," om "," raghav "," priya "];
  
-const above_18 =["minakshi","om","priya"];
+const above_18 =["minakshi","priya"];
 
    for( var i=0; i < students.length ; i++){
            
@@ -193,11 +193,10 @@ const above_18 =["minakshi","om","priya"];
   
     for (var j=0; j < above_18.length ; j++) { 
             
-         var valid_login_jth_index = above_18 [j] ;
- 
-          if(current_login===valid_login_jth_index){
-                
-          isVALIDlogin=true;
+         var valid_login_jth_index = above_18 [j] ; 
+    if(current_login===valid_login_jth_index) {
+      
+          isVALIDlogin = true;
           }
     }
 
@@ -212,14 +211,7 @@ const above_18 =["minakshi","om","priya"];
          console.log("is not true");
        }
     
- var string_2=" NEHA ";
-    
-      for (var id = 0; id < students.length; id++) {
-                string_2 = string_2 + students[id];
-            
-                 console.log(string_2);
-              }
-  
+
 var loop=103
    
    while(loop<108)
