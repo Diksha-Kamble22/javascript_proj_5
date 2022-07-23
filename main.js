@@ -105,17 +105,17 @@ var spck=OBJECT.toString();
 
           console.log(OBJECT);
 
-    OBJECT.push("33");
+   OBJECT.push("33");
 
           console.log(OBJECT);
  
-    OBJECT.reverse();   // .reverse& .sort are given same output
+   OBJECT.reverse();   // .reverse& .sort are given same output
    
           console.log(OBJECT);
 
-    OBJECT.pop();
+   OBJECT.pop();
 
-           console.log(OBJECT);
+          console.log(OBJECT);
 
 var length_ofOBJECT=OBJECT.length;
       console.log(length);
@@ -133,7 +133,7 @@ var charcode_ofcountry=last_country.charCodeAt(len_lastCOUNTRY-1);
       console.log(charcode_ofcountry);
 
 var secondOBJECT="          {^-_-^}          ";
-      console.log(secondOBJECT);
+    console.log(secondOBJECT);
 
     secondOBJECT=secondOBJECT.trim(); 
 
@@ -144,79 +144,80 @@ function display_second_country(){
   
     console.log(secondOBJECT);                                                      
 
-
-  var work1="substract";
+var work1="substract";
     
-if(work1=="substract"){
+ if(work1=="substract"){
 
        console.log("substract into excel sheet");
    }    
-else {
+ else {
        console.log("divide into excel sheet");
   }
   
-  
-   var excel_sheet="substract";
+ var excel_sheet="substract";
        excel_sheet="bodmas";
        
-if (excel_sheet=="add"){
+  if (excel_sheet=="add"){
        console.log("add DATA into excel sheet");
    }
-else if (excel_sheet=="substract"){
+  else if (excel_sheet=="substract"){
  
        console.log("substract DATA into excelsheet");
     }
-else if(excel_sheet=="multiply"){
+  else if (excel_sheet == " multiply "){
 
-       console.console.log("multiply DATA into excel sheet");
+       console.console.log (" multiply DATA into excel sheet ");
     }
-else {
+  else {
        console.log("divide DATA into excel sheet" );
     }
     
-  var LOL=24;
+var LOL=24;
   
-  var BAE="24";
+var BAE="24";
    
-console.log(LOL==BAE);
-console.log(BAE===LOL);
-console.log(LOL!=LOL);
-console.log(BAE!==LOL);
+ console.log(LOL==BAE);
+ console.log(BAE===LOL);
+ console.log(LOL!=LOL);
+ console.log(BAE!==LOL);
 
 const students=[" soheil "," minakshi "," om "," raghav "," priya "];
  
- const above_18 =["minakshi","om","priya"];
-      for( var i=0;i<students.length;i++){
-           
-           var current_login=students[i];
-          
-           var isVALIDlogin=false;
-  
-               for (var j=0;j<above_18.length;j++);{
-            
-                  var valid_login_jth_index=above_18[j];
- 
-              if(current_login===valid_login_jth_index){
-                
-                is_VALIDlogin=true;}
-         }
-   console.log(students[i])
-   
-              if(isVALIDlogin){
-                  console.log("it is true");
-                            }
-               else {            
- 
-                  console.log("is not true");
-                         }
-                   }
+const above_18 =["minakshi","om","priya"];
 
-    var string_2=" NEHA ";
+   for( var i=0; i < students.length ; i++){
+           
+        var current_login=students[i];
+          
+        var isVALIDlogin=false;
+  
+    for (var j=0; j < above_18.length ; j++) { 
+            
+         var valid_login_jth_index = above_18 [j] ;
+ 
+          if(current_login===valid_login_jth_index){
+                
+          isVALIDlogin=true;
+          }
+    }
+
+    console.log(students[i])
+        
+   if(isVALIDlogin){
+   
+         console.log("it is true");
+                           
+   else {           
+         
+         console.log("is not true");
+       }
     
-             for (var id = 0; id < students.length; id++) 
-                  {
-                     string_2 = string_2 + students[id];
-                         console.log(string_2);
+ var string_2=" NEHA ";
+    
+      for (var id = 0; id < students.length; id++) {
+                string_2 = string_2 + students[id];
+            
+                 console.log(string_2);
               }
   
 var loop=103
