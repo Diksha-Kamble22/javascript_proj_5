@@ -208,14 +208,13 @@ for (var i = 0; i < names.length; i++) {
 
 var loop=103
    
-   while(loop<108)
+ while(loop<108)
      {
      console.log(loop*23);
    
-     loop++;
+      loop++;
    }
-   
-     console.log("a loop");
+    console.log( loop );
     
  var num=194;
  
